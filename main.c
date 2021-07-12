@@ -12,7 +12,7 @@ typedef struct{
 
 void actualizarRecuperados(ePais pais, int recuperadosDelDia);
 char* invertirCadena(char cadena[]);
-void ordenarCaracteres(char lis[]);
+void ordenarCaracteres(char cadena[]);
 
 
 int main()
