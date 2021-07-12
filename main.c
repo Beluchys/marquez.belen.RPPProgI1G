@@ -17,8 +17,8 @@ void ordenarCaracteres(char lis[]);
 
 int main()
 {
-    char cadena[10] = {"algoritmo"};
-    char ordenar[10] = {"UTNFRA"};
+    char ordenar[10] = {"algoritmo"};
+    char cadena[10] = {"UTNFRA"};
 	char cadenaInvertida[10];
 	int recuperadosDelDia = 1000;
 
@@ -29,10 +29,10 @@ int main()
 	printf("1 - Recuperados totales: %d\n\n",pais.recuperados);
 
 	strcpy(cadenaInvertida,invertirCadena(cadena));
-	printf("2 - La Cadena %s invertida: %s\n\n","algoritmo",cadenaInvertida);
+	printf("2 - La palabra %s invertida es: %s\n\n","UTNFRA",cadenaInvertida);
 
 	ordenarCaracteres(ordenar);
-	printf("3 - La palabra %s ordenada pasa a ser: %s\n\n","UTNFRA",ordenar);
+	printf("3 - La palabra %s ordenada pasa a ser: %s\n\n","algoritmo",ordenar);
 
 	return 0;
 }
